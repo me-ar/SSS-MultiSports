@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+
+        --black_900: #000000;
+        --black_900_3f: #0000003f;
+        --blue_gray_900: #1c184a;
+        --green_400: #5fd669;
+        --light_green_a200: #aeff6b;
+        --white_a700: #ffffff;
+        --white_a700_bf: #ffffffbf;
+
+
+        --shadow-xs: 4px 4px 1px 0 #0000003f;
+
+
+        --radius-xs: 14px;
+        --radius-sm: 28px;
+        --radius-md: 38px;
+
+        
+        -space-xs: 8px;
+        --space-sm: 24px;
+        --space-md: 42px;
+    }
+}
